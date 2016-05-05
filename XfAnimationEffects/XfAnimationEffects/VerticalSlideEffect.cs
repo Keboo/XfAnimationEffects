@@ -11,7 +11,7 @@ namespace XfAnimationEffects
 
         public static bool GetIsShown(BindableObject obj)
         {
-            return (bool) obj.GetValue(IsShownProperty);
+            return (bool)obj.GetValue(IsShownProperty);
         }
 
         public static void SetIsShown(BindableObject obj, bool value)
@@ -19,10 +19,10 @@ namespace XfAnimationEffects
             obj.SetValue(IsShownProperty, value);
         }
 
-        public VerticalSlideEffect() 
+        public VerticalSlideEffect()
             : base(ID)
         {
-            
+
         }
     }
 }

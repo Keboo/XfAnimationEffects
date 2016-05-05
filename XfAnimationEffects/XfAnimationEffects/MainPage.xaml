@@ -13,9 +13,9 @@
                     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}"
                     RelativeLayout.XConstraint="{ConstraintExpression Type=Constant}"
                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
-                    x:Name="Overlay" local:VerticalSlideEffect.IsShown="False" BackgroundColor="Pink">
+                    x:Name="Overlay" BackgroundColor="Pink">
       <RelativeLayout.Effects>
-        <local:VerticalSlideEffect />
+        <local:FormsVerticalSlideEffect />
       </RelativeLayout.Effects>
       <Label Text="Some super awesome content goes here" />
     </RelativeLayout>
